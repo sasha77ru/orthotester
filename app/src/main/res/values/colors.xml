@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574b</color>
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <color name="colorAccent">#C5B60E</color>
+
+    <color name="measBGColor">#FFFFFF</color>
+
+    <color name="errorColor">#ffff4444</color>
+    <color name="raw2DeleteColor">#ffff8800</color>
+    <color name="worstColor">#ffff4444</color>
+    <color name="badColor">#ffffbb33</color>
+    <color name="goodColor">#ff0099cc</color>
+    <color name="excellentColor">#ff669900</color>
+</resources>

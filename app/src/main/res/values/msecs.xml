@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="measTimerBeReadyDelay">3000</integer>
+    <integer name="measTimerPeriod">60</integer>
+
+    <integer name="wait4HideKBTime">500</integer>
+    <integer name="resultAnimation_scaleOutTime">100</integer>
+
+    <integer name="resultAnimation_beforeTime">1000</integer>
+    <integer name="resultAnimation_flyingTime">100</integer>
+    <!-- Should be sum of previous two-->
+    <integer name="resultAnimation_overallTime">1100</integer>
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Orthotester</string>
+    <string name="ver">0.0.9</string>
+
+    <string name="settings">Настройки</string>
+    <string name="about">О программе</string>
+    <!--<string name="addMeasDialogTitle">Enter your pulses</string>-->
+    <string name="computeButtonText">OK</string>
+    <string name="pulse1Hint">Пульс за 60 сек - лежа, сразу после сна</string>
+    <string name="pulse2Hint">Пульс за 60 сек - встать, подождать 5 сек, замерять</string>
+    <!--<string name="startTimer"><![CDATA[<font color=blue><u>Таймер</u></font>]]></string>-->
+    <string name="startTimer">Таймер</string>
+    <string name="prepareTimer">Приготовься</string>
+
+    <string name="confirmRemoving">Удалить строку?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="contentOfAbout">
+Ортопроба или ортостатическая проба — это стандартный нагрузочный тест, в котором роль физического воздействия на организм играет переход из положения лежа в положение стоя. При этом оценивается степень выраженности реакции организма на данное действие.
+\n
+\nВ данной программе реализована простейшая ортопроба:
+\nУтром после сна открываете глаза, нащупываете пульс, все это лежа, без резких движений, нужно делать всё сразу после пробуждения. Считаете пульс строго за 60 секунд. Далее встаёте, ждёте 5 секунд, чтобы немного выровнять пульс, и замеряете пульс ещё раз за 60 секунд.
+\nРезультат позволяет судить о степени восстановления спортсмена после предшествующих нагрузок.
+\nПоказатель индивидуальный, нужно провести регулярные измерения, чтобы понять свою норму.
+\nОриентировочно можно принять хорошим результат в диапазоне 5-10.
+\nНиже - надо восстановиться, выше - прекрасная форма.
+    </string>
+
+    <string name="incredibleError">Неизвестная ошибка</string>
+    <string name="pulse_wrong">Неправильный пульс</string>
+    <string name="pulse_low">Низкий пульс</string>
+    <string name="pulse_high">Высокий пульс</string>
+    <string name="delta_wrong">Неправильный второй пульс</string>
+    <string name="delta_high">Большая разница</string>
+</resources>

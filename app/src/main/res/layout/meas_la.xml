@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/measBGColor"
+              android:stretchColumns="*">
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+        <TextView
+                android:id="@+id/textMeasDate"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"/>
+        <TextView
+                android:id="@+id/textMeasPulse1"
+                android:layout_weight="0.15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"/>
+        <TextView
+                android:id="@+id/textMeasPulse2"
+                android:layout_weight="0.15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"/>
+        <TextView
+                android:id="@+id/textMeasProbe"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text=""
+                android:paddingRight="15dp"
+                android:gravity="end"
+                android:paddingLeft="15dp"/>
+    </TableRow>
+
+</TableLayout>
